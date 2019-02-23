@@ -1,0 +1,341 @@
+
+html, body {
+
+  width:100%;
+  overflow-x:hidden;
+
+}
+
+body {        
+  position: relative;
+  padding-top: 1.5em;
+}
+
+iframe {
+  width: 450px; 
+  height: 350px;
+}
+
+.sector {
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+
+
+/* Colors
+==========================*/
+
+.greyBackground {
+  background: #f8f8f8;   
+}   
+
+#footer {
+  background-color: #0A3945;
+  color: #88A677;
+}
+
+#registration {
+  background: #031217;
+  color: #70A589;
+}
+
+#news {
+  background: #031217;
+  color: #70A589;
+}
+
+#schedule {
+  background: #031217;
+  color: #70A589;
+}
+
+#who {
+  background: #031217;
+  color: #70A589;
+}
+
+.btn.btn-default {
+  color: #579632;
+
+}
+
+.subText {
+  color: #6C9BA3;
+}
+
+.card, .card-header {
+  background-color: #0A3945;
+  border-color: #6C9BA3;
+}
+
+.cardNews {
+  background-color: #0A3945 !important;
+}
+
+.btn-link {
+  color: #88A677;
+  font-size: 1.2rem;
+}
+
+.btn-link:hover, .card-header  {
+  color: #579632;
+}
+
+a {
+  color: #88A677;
+}
+
+a:hover {
+  color: #579632;
+}
+
+.btn.btn-primary {
+  background-color: #579632;
+}
+
+.btn.btn-secondary {
+  background-color: #6C9BA3;
+}
+
+.bg-dark {
+  background-color: #031217 !important;
+}
+
+.navbar-brand {
+  color: #EE4037 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #70A589;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #579632;
+}
+
+.card-title {
+  color: #EE4037;
+}
+
+.emojy {
+  width: 2em;
+  height: 2em;
+}
+
+#headback {
+  position: relative;
+  height: 700px;          
+  background: url('img/brooklyn-bridge-park2.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;     
+
+
+}
+
+.headerMain {   
+ font-family: 'Monoton', cursive,'Gloria Hallelujah', 'Shrikhand', cursive;  
+ font-size: 5rem;
+ color: #ffff80;    
+ text-shadow: 0 0 1em red;
+
+}
+
+.titleSec {
+  font-size: 3rem;
+  font-family: 'Alfa Slab One', cursive;
+  color: #EE4037;  
+}
+
+#headerMain2 {
+  padding-left: 230px;
+}
+
+#moviesSlides {
+  padding-top: 45px;  
+}
+
+.placesCount {
+  width: 19rem !important;
+  font-size: 0.9rem;
+  padding-right: 5px;
+}
+
+.footerHeader {
+  font-family: 'Alfa Slab One', cursive;
+  color: #EE4037;
+}
+
+.card {
+  width: 18rem;
+}
+
+.carousel-inner {
+  font-family: 'Alfa Slab One', cursive;  
+
+  }
+
+  h3.display-5 {
+  color: #ffff80 !important;
+  
+  }
+
+  #btn-primary {
+    background-color: #0062cc;
+  }
+
+  .btn-link {           
+      padding-right: 3px;
+      padding-left: 3px;
+      
+      font-weight: bold;
+        }
+
+        .scheduleHead {
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
+      
+     
+
+    /* Large devices (desktops, less than 1200px) 
+    ========================================================*/
+    @media (max-width: 1399.98px) {
+    iframe {
+    width: 400px; 
+    height: 350px;
+    }
+    }
+
+    /* Large devices (desktops, less than 1200px) 
+    ========================================================*/
+
+    @media (max-width: 1199.98px) {
+      #headback {
+        height: 600px;
+      }
+
+      iframe {
+    width: 350px; 
+    height: 300px;
+    }
+
+
+    }
+
+    /* Medium devices (tablets, less than 992px)
+    ========================================================*/
+
+    @media (max-width: 991.98px) {
+      #headback {
+        height: 500px;
+        font-size: 1.5em;
+      }
+
+      .titleSec {
+        font-size: 2.5rem;
+      }
+
+      .headerMain {
+        font-size: 3.5rem;
+      }
+
+      iframe {
+    width: 300px; 
+    height: 250px;
+    }
+    }
+
+    /* Small devices (landscape phones, less than 768px)
+    ==========================================================*/
+
+    @media (max-width: 767.98px) {
+      #headback {
+        height: 420px;
+      }
+
+      .headerMain {
+        font-size: 3rem;
+      }
+
+      .titleSec {
+        font-size: 2rem;
+      }
+    }
+
+    /* Extra small devices (portrait phones, less than 576px)
+    ==========================================================*/
+
+    @media (max-width: 575.98px) {
+      #headback {
+        height: 350px;
+      }
+
+      .headerMain {
+        padding-top: 100px;
+        font-size: 2rem;
+        padding-left: -16px;
+      }
+
+      .titleSec {
+        font-size: 2rem;
+        padding-bottom: 10px;
+      }
+
+      iframe {
+        width: 100%; 
+        height: 300px;
+      }
+
+      .col-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 0px;
+      }
+
+      .btn-link {     
+      font-size: 1rem;
+        }
+
+      
+    }
+
+    /* Super old small devices (phones, less than 400px)
+    ==========================================================*/
+
+    @media (max-width: 400px) {
+      #headback {
+        height: 250px;
+      }
+
+      .headerMain {
+        font-size: 1.5rem;
+      }
+
+      .titleSec {
+        font-size: 1.5rem;
+      }
+
+      .navbar-brand {
+        font-size: 15px;
+      }
+
+      .col-12 {
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 0px;
+      }
+
+      .btn-link {     
+      font-size: 0.9rem;
+      font-weight: bold;     
+        }
+
+        
+    }
+
+    
+
+    
