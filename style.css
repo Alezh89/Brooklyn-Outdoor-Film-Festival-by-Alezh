@@ -137,7 +137,7 @@ a:hover {
 .headerMain {   
  font-family: 'Monoton', cursive,'Gloria Hallelujah', 'Shrikhand', cursive;  
  font-size: 5rem;
- color: white;    
+ color: #ffff80;    
  text-shadow: 0 0 1em red;
 
 }
@@ -177,8 +177,8 @@ a:hover {
   }
 
   h3.display-5 {
+  color: #ffff80 !important;
   
-  text-shadow: 0 0 1em #EE4037;
   }
 
   #btn-primary {
