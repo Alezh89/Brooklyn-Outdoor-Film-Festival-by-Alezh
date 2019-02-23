@@ -74,6 +74,7 @@ iframe {
 
 .btn-link {
   color: #88A677;
+  font-size: 1.2rem;
 }
 
 .btn-link:hover, .card-header  {
@@ -184,6 +185,21 @@ a:hover {
     background-color: #0062cc;
   }
 
+  .btn-link {           
+      padding-right: 3px;
+      padding-left: 3px;
+      
+      font-weight: bold;
+        }
+
+        .scheduleHead {
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
+      
+     
+
     /* Large devices (desktops, less than 1200px) 
     ========================================================*/
     @media (max-width: 1399.98px) {
@@ -279,6 +295,10 @@ a:hover {
         margin-left: 0px;
       }
 
+      .btn-link {     
+      font-size: 1rem;
+        }
+
       
     }
 
@@ -307,6 +327,13 @@ a:hover {
         padding-left: 5px;
         margin-left: 0px;
       }
+
+      .btn-link {     
+      font-size: 0.9rem;
+      font-weight: bold;     
+        }
+
+        
     }
 
     
