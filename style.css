@@ -95,15 +95,6 @@ a:hover {
   color: #579632;
 }
 
-.btn.btn-primary, .btn.btn-light {
-  background-color: #579632;
-  color: white;
-}
-
-.btn.btn-secondary {
-  background-color: #6C9BA3;
-}
-
 .bg-dark {
   background-color: #031217 !important;
 }
