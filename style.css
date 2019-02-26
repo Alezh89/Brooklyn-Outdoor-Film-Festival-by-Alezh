@@ -21,15 +21,17 @@ iframe {
   
 }
 
-.sector {
-  padding-top: 30px;
-  padding-bottom: 30px; 
-}
+
 
 #phone {
+  width: 100%;
   color: white;
-  padding-left: 330px;
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 21%;
 }
+
 
 
 /* Colors
@@ -105,7 +107,7 @@ a:hover {
 }
 
 .navbar-brand {
-  color: #EE4037 !important;
+  color: #EE4037 !important;  
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -154,8 +156,6 @@ a:hover {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;     
-
-
 }
 
 .headerMain {   
@@ -189,8 +189,6 @@ a:hover {
   color: #EE4037;
 }
 
-
-
 .card {
   width: 18rem;
 }
@@ -198,61 +196,55 @@ a:hover {
 .carousel-inner {
   font-family: 'Alfa Slab One', cursive;  
 
-  }
+}
 
-  h3.display-5 {
+h3.display-5 {
   color: #ffff80 !important;
   
-  }
+}
 
-  #btn-primary {
-    background-color: #0062cc;
-  }
+#btn-primary {
+  background-color: #0062cc;
+}
 
-  .btn-link {           
-      padding-right: 3px;
-      padding-left: 3px;
-      
-      font-weight: bold;
-        }
+.btn-link {           
+  padding-right: 3px;
+  padding-left: 3px;
 
-        .scheduleHead {
-        padding-left: 3px;
-        padding-right: 3px;
-      }
+  font-weight: bold;
+}
 
-          
-     
+.scheduleHead {
+  padding-left: 3px;
+  padding-right: 3px;
+}
 
     /* Super Large devices (TV, less than 1399px) 
     ========================================================*/
     @media (max-width: 1399.98px) {
-    iframe {
-    width: 100%; 
-    height: 360px;
-    }
+      iframe {
+        width: 100%; 
+        height: 360px;
+      }
 
-    .headerMain {
+      .headerMain {
         font-size: 4rem;            
         padding-top: 80px;  
         padding-bottom: 30px;
       }
 
       .redText {
-      color: #EE4037;
+        color: #EE4037;
       }
 
       .infoHeader {
-      font-size: 1rem;
+        font-size: 1rem;
       }
 
       #whatAndWhenTitle, #whereTitle {  
-      font-size: 2.7rem;
+        font-size: 2.7rem;
       }
-      
-      #phone { 
-      padding-left: 200px;
-      }
+           
     }
 
     /* Large devices (desktops, less than 1200px) 
@@ -264,30 +256,25 @@ a:hover {
       }
 
       iframe {
-    width: 100%; 
-    height: 360px;
-    }
+        width: 100%; 
+        height: 360px;
+      }
 
-    .headerMain {
+      .headerMain {
         font-size: 3.5rem;
         padding-top: 60px;
       }
 
       .logo {
-      height: 90px;  
-      
+        height: 90px;  
+
       }
 
       #whatAndWhenTitle, #whereTitle {  
-      font-size: 2.2rem;
+        font-size: 2.2rem;
       }
 
-      #phone {
-        padding-left: 110px;
-      }
-
-
-
+      
     }
 
     /* Medium devices (tablets, less than 992px)
@@ -313,26 +300,26 @@ a:hover {
       }
 
       iframe {
-    width: 100%; 
-    height: 340px;
-    }
-
-    .logo {
-      height: 80px;  
-      -webkit-filter: drop-shadow(8px 8px 0.5em red);
-      filter: drop-shadow(8px 8px 0.5em red);
+        width: 100%; 
+        height: 340px;
       }
 
-       #whatAndWhenTitle, #whereTitle {  
-      font-size: 2.1rem;
+      .logo {
+        height: 80px;  
+        -webkit-filter: drop-shadow(8px 8px 0.5em red);
+        filter: drop-shadow(8px 8px 0.5em red);
+      }
+
+      #whatAndWhenTitle, #whereTitle {  
+        font-size: 2.1rem;
       }
 
       .whereBody {
-      padding-right: 0px;
-    }
+        padding-right: 0px;
+      }      
 
-    #phone {
-        padding-left: 85px;
+      #phone {
+         padding-right: 10%;        
       }
 
     }
@@ -358,37 +345,41 @@ a:hover {
       }
 
       .logo {
-      height: 65px;  
-      margin-bottom: 8px;
-      -webkit-filter: drop-shadow(8px 8px 0.5em red);
-      filter: drop-shadow(8px 8px 0.5em red);
+        height: 65px;  
+        margin-bottom: 8px;
+        -webkit-filter: drop-shadow(8px 8px 0.5em red);
+        filter: drop-shadow(8px 8px 0.5em red);
       }
 
       iframe {
-    width: 100%; 
-    height: 360px;
-    padding: 0px;
-    }
-
-    .noMar {
-      margin-right: 0px;
-      margin-left: 0px;
-    }
-
-    #whatAndWhenTitle, #whereTitle {  
-      font-size: 1.9rem;
+        width: 100%; 
+        height: 360px;
+        padding: 0px;
       }
 
-    .whereBody {
-      padding-right: 0px;
-    }
+      .noMar {
+        margin-right: 0px;
+        margin-left: 0px;
+      }
 
-    #phone {
-        padding-left: 0px;
+      #whatAndWhenTitle, #whereTitle {  
+        font-size: 1.9rem;
+      }
+
+      .whereBody {
+        padding-right: 0px;
+      }
+
+      .navbar-brand {      
+      padding-left: 0px;
+      }
+
+      #phone {
+        padding-right: 5px;
       }
 
       .infoHeader {
-      font-size: 0.8rem;
+        font-size: 0.8rem;
       }
 
       .footerHeader {
@@ -415,7 +406,7 @@ a:hover {
       }
 
       .headerMain {
-        font-size: 2.0rem;
+        font-size: 2.0rem;        
       }
 
       .titleSec {
@@ -435,37 +426,44 @@ a:hover {
         margin-left: 0px;
       }
 
-      .btn-link {     
-      font-size: 1rem;
-        }
+      .padLeft {
+        padding-left: 5px !important;
+      }
 
-        .logo {
-      height: 45px;  
-      -webkit-filter: drop-shadow(8px 8px 0.5em red);
-      filter: drop-shadow(8px 8px 0.5em red);
-      margin-bottom: 10px;  
+      .btn-link {     
+        font-size: 1rem;
+      }
+
+      .logo {
+        height: 45px;  
+        -webkit-filter: drop-shadow(8px 8px 0.5em red);
+        filter: drop-shadow(8px 8px 0.5em red);
+        margin-bottom: 10px;  
       }
 
       .whereBody {
-      padding-right: 0px;
-      padding-left: 0px;
-    }
-
-    .whatAndWhen {
-      padding-right: 5px;
-      padding-right: 5px;
-    }
-
-    #phone {
-        visibility: hidden;
+        padding-right: 0px;
+        padding-left: 0px;
       }
 
-      .nav-item.text-right {
+      .whatAndWhen {
+        padding-right: 5px;
+        padding-right: 5px;
+      }
+
+      #phone {
+        visibility: hidden;
         height: 0px;
+        padding: 0px;
+      }
+
+      .navbar-text {
+        height: 0px;
+        padding: 0px;
       }
 
       .infoHeader {
-      font-size: 0.6rem;
+        font-size: 0.6rem;
       }
 
       .footerHeader, .h6.text-right {
@@ -491,10 +489,6 @@ a:hover {
         font-size: 1.5rem;
       }
 
-      .navbar-brand {
-        font-size: 15px;
-      }
-
       .col-12 {
         padding-right: 5px;
         padding-left: 5px;
@@ -502,22 +496,22 @@ a:hover {
       }
 
       .btn-link {     
-      font-size: 0.9rem;
-      font-weight: bold;     
-        }
+        font-size: 0.9rem;
+        font-weight: bold;     
+      }
 
-          .logo {
-      height: 35px;  
-      -webkit-filter: drop-shadow(10px 10px 0.5em red);
-      filter: drop-shadow(10px 10px 0.5em red);
-      margin-bottom: 10px;  
+      .logo {
+        height: 35px;  
+        -webkit-filter: drop-shadow(10px 10px 0.5em red);
+        filter: drop-shadow(10px 10px 0.5em red);
+        margin-bottom: 10px;  
       }
 
       .redbuttonCentr {
         text-align: center;
       }
 
-        
+
     }
 
     
