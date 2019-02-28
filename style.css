@@ -33,7 +33,6 @@ iframe {
 }
 
 
-
 /* Colors
 ==========================*/
 
@@ -182,6 +181,7 @@ a:hover {
   width: 19rem !important;
   font-size: 0.9rem;
   padding-right: 5px;
+  padding-left: 15px;
 }
 
 .footerHeader {
@@ -509,6 +509,16 @@ h3.display-5 {
 
       .redbuttonCentr {
         text-align: center;
+      }
+      #registration {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .placesCount {
+        width: 100%;
+      }
+      .paddZiro {
+        padding-left: 5px;
       }
 
 
