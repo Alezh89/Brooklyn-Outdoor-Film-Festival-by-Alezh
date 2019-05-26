@@ -1,4 +1,4 @@
-# Brooklyn-Outdoor-Film-Festival-by-Alezh
+# Brooklyn Outdoor Film Festival
 Brooklyn Outdoor Film Festival https://alezh89.github.io/filmfestbrooklyn.com/
 
 ## Used technologies
