@@ -1,4 +1,17 @@
 # Brooklyn-Outdoor-Film-Festival-by-Alezh
-Brooklyn Outdoor Film Festival (project 3)
+Brooklyn Outdoor Film Festival https://alezh89.github.io/filmfestbrooklyn.com/
 
-create a folder 'img/' and put all the media files there
+## Used technologies
+
+- HTML, CSS
+- Bootstrap 4
+- JS
+
+
+## Skills
+
+- Make a modern design
+- Write a project brief
+- Choose an appropriate technical solution
+- Detail project specifications
+- List functionalities requested by the client
